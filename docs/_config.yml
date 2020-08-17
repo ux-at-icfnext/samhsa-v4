@@ -32,7 +32,7 @@ github_username:  jekyll
 # Build settings
 theme: minima
 base: "/samhsa-v4/"
-url: "https://ux-at-icfnext.github.io/samhsa-v4/"
+url: https://ux-at-icfnext.github.io/samhsa-v4/
 plugins:
   - jekyll-feed
 
