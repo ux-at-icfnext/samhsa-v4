@@ -16,8 +16,6 @@ OnClick/OnTap of link, system displays target page.
 
 Navigation displays in open state based on current page. For instance, if view a 3rd level page, the navigation will be expanded to show the children of the 3rd level, the siblings of the 3rd level, and the "secondary" section title.
 
-
-<a name=“code”></a>
 ### Code
 ### HTML
 ```html
