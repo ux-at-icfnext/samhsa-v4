@@ -9,13 +9,13 @@ permalink: "/radio-buttons/"
 ## Overview
 Radio buttons allow users to select multiple options from a group of pre-detemined options. This element is typical seen on webforms. If there are more than 7 options, a dropdown would be an alternative to use.
 
-![radio button](../assets/img/forms/radio_button.png "Radio Button")
 {% include /patterns/radio-buttons/radio-buttons.md %}
 
 **Contents**
 - [Functionality](#functionality)
 - [Usability Guidelines](#usability)
 - [Accessibility](#accessibility)
+- [Code](#code)
 
 <a name="functionality"></a>
 ## Functionality

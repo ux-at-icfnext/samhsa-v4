@@ -1,1 +1,1 @@
-![checkbox](../assets/img/forms/dropdown.png "Checkbox")
+![checkbox](../assets/img/forms/checkbox.png "Checkbox")
