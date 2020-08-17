@@ -8,6 +8,9 @@ $medium-breakpoint: 800px;
 // global image fix
 img {max-width: 95%; height: auto;}
 
+//----------- Base styles
+{% include css/base/basestyles.scss %}
+
 //----------- Library styles
 {% include css/librarystyles/library.scss %}
 
