@@ -22,6 +22,68 @@ This global component applies to desktop versions of the SAMHSA website. (View t
 
 ![Header Image](../assets/img/header/header.png)
 
+<div class="mainmenu">
+{% if site.data.main_nav.samhsa-navigation[0] %}
+  <ul class="parentMenuItems">
+  {% for item in site.data.main_nav.samhsa-navigation %}
+    <li class="{% if item.title == 'About Us' %}about-us{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a>
+      {% if item.second-level[0] %}
+        <ul class="second-level">
+          {% for item in item.second-level %}
+              <li><a href="{{ item.url }}">{{ item.page }}</a>
+                {% if item.third-level[0] %}
+                  <ul class="third-level">
+                    {% for item in item.third-level %}
+                      <li><a href="{{ item.url }}">{{ item.page }}</a>
+                        {% if item.fourth-level[0] %}
+                          <ul class="fourth-level">
+                            {% for item in item.fourth-level %}
+                              <li><a href="{{ item.url }}">{{ item.page }}</a>
+                                {% if item.fifth-level[0] %}
+                                  <ul class="fifth-level">
+                                    {% for item in item.fifth-level %}
+                                      <li><a href="{{ item.url }}">{{ item.page }}</a>
+                                        {% if item.sixth-level[0] %}
+                                          <ul class="sixth-level">
+                                            {% for item in item.sixth-level %}
+                                              <li><a href="{{ item.url }}">{{ item.page }}</a></li>
+                                            {% endfor %}
+                                          </ul>
+                                        {% endif %}
+                                      </li>
+                                    {% endfor %}
+                                  </ul>
+                                {% endif %}
+                              </li>
+                            {% endfor %}
+                          </ul>
+                        {% endif %}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {% if item.title == 'About Us' %}
+        <span class="about-leadership no-link">
+          <div>
+            <span>IMG GOES HERE
+            </span>
+            <span>Elinore McCance-Katz, M.D., Ph.D., Assistant Secretary for Mental Health and Substance Use</span>
+            <div>
+              <a href="https://www.samhsa.gov/about-us/who-we-are/leadership/biographies/elinore-mccance-katz" id="anch_634">View full biography</a>
+            </div>
+          </div>
+        </span>
+      {% endif %}
+    </li> <!--End Parent Menu Item-->
+    {% endfor %}
+  </ul>
+{% endif %}
+</div> <!-- End Header Menu -->
+
 1. Top Hat
 - contains HHS logo and name
 2. Utility Nav
