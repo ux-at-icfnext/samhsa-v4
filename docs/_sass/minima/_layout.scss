@@ -176,7 +176,7 @@
 
 @media screen and (min-width: $on-medium) {
   .footer-col-wrapper {
-    display: flex
+    display: flex;
   }
 
   .footer-col {
@@ -201,6 +201,7 @@
  * Page content
  */
 .page-content {
+  width: 100%;
   padding: $spacing-unit 0;
   flex: 1 0 auto;
 }
