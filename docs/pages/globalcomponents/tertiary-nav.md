@@ -2,7 +2,7 @@
 layout: page
 title: Tertiary Navigation
 category: global-component
-permalink: "/teritary-nav/"
+permalink: "/tertiary-nav/"
 ---
 
 ## Overview

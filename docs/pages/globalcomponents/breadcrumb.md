@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Breadcrumb
+title: Breadcrumbs
 category: elements
-permalink: "/breadcrumb"
+permalink: "/breadcrumbs"
 ---
 {% include patterns/breadcrumb/breadcrumb.md %}
 
