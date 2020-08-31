@@ -1,0 +1,13 @@
+.contactus {
+  @media(min-width: 700px) {
+    max-width: 50%;
+  }
+  background-color: $sliver;
+  padding: 15px;
+  h3{
+    color: $teal;
+  }
+  i {
+    font-size: 12px;
+  }
+}
