@@ -85,7 +85,7 @@ figcaption {
 
 /**
  * Lists
- 
+
 ul, ol {
   margin-left: $spacing-unit;
 }*/
@@ -111,6 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
+/* -- taking out this styling. Already set in the type file.
 a {
   color: $link-base-color;
   text-decoration: none;
@@ -132,7 +133,7 @@ a {
     }
   }
 }
-
+*/
 
 /**
  * Blockquotes
