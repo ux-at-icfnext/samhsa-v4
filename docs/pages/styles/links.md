@@ -19,16 +19,14 @@ permalink: "/links/"
 <a href="body"></a>
 ## Body Text
 Link styles for body text are:
-- Family: Tahoma 400
-- Size: 15px
-- Line Height: 20px
-- Color: $sapphite (#1F419A)
-- text-decoration: none;
-- border-bottom: 1px solid $sapphite;
+- family: Tahoma 400
+- size: 15px
+- line Height: 20px
+- color: $sapphite (#1F419A)
+- text-decoration: underline;
 OnHover
-- Color: $ruby (#A82D2B)
-- text-decoration: none;
-- border-bottom: 1px solid $ruby;
+- color: $ruby (#A82D2B)
+- text-decoration: underline;
 
 **Accessibility**
 - It is OK to link a full sentence, but avoid longer.
@@ -72,18 +70,16 @@ Font Awesome can be used as a font, SVG, or a PNG. Some sites have had issues wi
 
 <a href="header"></a>
 ## Header Text as link
-We headers are used as links the header use these styles. Note, there is no underline on defaul, only on hover or focus.
+We headers are used as links the header use these styles. Note, there is no underline on default, only on hover or focus.
 Link styles for body text are:
-- Family: Tahoma 400
-- Size: 15px
-- Line Height: 20px
-- Color: $sapphite (#1F419A)
+- family: Tahoma 400
+- size: 15px
+- line Height: 20px
+- color: $sapphite (#1F419A)
 - text-decoration: none;
-- border-bottom: none;
 OnHover
-- Color: $ruby (#A82D2B)
-- text-decoration: none;
-- border-bottom: 1px solid $ruby;
+- color: $ruby (#A82D2B)
+- text-decoration: underline;
 
 
 ## PDF Links
