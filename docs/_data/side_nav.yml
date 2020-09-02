@@ -9,6 +9,8 @@ side-navigation:
         url: /typography
       - page: Icons
         url: /icons
+      - page: links
+        url: /links
       - page: Logos
         url: /logos
   - title: Elements
@@ -39,7 +41,7 @@ side-navigation:
       - page: Tooltip
         url: /tooltip
   - title: Global Components
-    url: /header-lg 
+    url: /header-lg
     second-level:
       - page: HTML Head
         url: /html-head
@@ -66,4 +68,3 @@ side-navigation:
         url: /newsletter
       - page: Search Widget
         url: /search-widget
-      
