@@ -20,7 +20,6 @@ The resource center template should be used for sites that list out resources su
 - [Full Page Example](#example)
 
 
-
 ## Content Specifications
 <div class="accordion">
     <div class="option">
@@ -29,7 +28,6 @@ The resource center template should be used for sites that list out resources su
       </label>
       <div class="content">
         <p>_@Leake to complete_</p>
-        </p>
       </div>
     </div>
 </div>

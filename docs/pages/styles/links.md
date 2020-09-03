@@ -12,6 +12,7 @@ permalink: "/links/"
 - [PDF Downloads](#pdf)
 - [Image Links](#images)
 - [Cards](#cards)
+- [Buttons](#buttons)
 - [Menu Links](#menu)
 - [Footer Links](#footer)
 
@@ -82,7 +83,7 @@ OnHover
 - text-decoration: underline;
 
 
-## PDF Links
+## File Download Links
 Download links include the file type and size.
 
 Example - [Download this document (PDF \| 12.5KB)](#)
@@ -107,8 +108,11 @@ Use of cards as navigation is common across the site. A few rules should be foll
 - Titles or buttons should be used to describe the destination
 - The title and or button should follow regular link rules listed above for visual display.
 - The full card is clickable/tapable
-_for more information about [cards]({{ site.url }}cards), please see the cards specifications.
+_for more information about [cards]({{ site.url }}cards), please see the cards specifications._
 
+<a href="buttons"></a>
+### Buttons
+Please, see the [buttons]({{ site.url }}buttons) specifications.
 
 <a href="menu"></a>
 ## Menu Links
