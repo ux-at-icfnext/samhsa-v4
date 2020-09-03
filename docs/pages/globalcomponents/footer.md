@@ -36,6 +36,13 @@ This links are represented as actionalble icons. The icons are from the FontAwes
 - LinkedIn -  icon: linkedin - color: #0E76A8 - link [https://www.linkedin.com/company/substance-abuse-and-mental-health-services-administration/](https://www.linkedin.com/company/substance-abuse-and-mental-health-services-administration/)
 - RSS - icon: rss-square - color: #f89c40 - link [https://www.samhsa.gov/rss](https://www.samhsa.gov/rss)
 - Blog - icon: "custom created" - color: #1b7391 - link [https://blog.samhsa.gov/](https://blog.samhsa.gov/)
+**Visual Styling**
+- On default, footer links are body text color and underlined.
+  - color: $charcoal (#4A4A4A)
+  - text-decoration: underline;
+- On hover, links change to ruby with underline
+  - color: $ruby (#A82D2B)
+  - text-decoration: underline;
 
 <a name="newsletter"></a>
 ## Newsletter Sign up
