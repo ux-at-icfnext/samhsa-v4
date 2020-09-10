@@ -6,7 +6,7 @@ permalink: "/header-lg/"
 ---
 
 ## Overview
-This global component applies to desktop versions of the SAMHSA website. (View the [mobile version]({{ site.url }}header-sm).) The desktop has both a standardized header and a top-level menu.
+This global component applies to desktop versions of the SAMHSA website. (View the [mobile version]({{ site.url }}/header-sm).) The desktop has both a standardized header and a top-level menu.
 
 **Contents:**
 - [Header Design](#head)
@@ -136,6 +136,6 @@ In addition to the submenu links...
 ?? What is our Accessibility on this menu ??
 
 ### Multidevice
-Small and medium screen devices are using the header & menu system described on the specifications for the small screen --> [mobile version]({{ site.url }}header-sm). However, there are still touch screen devices that exist on the large and extra-large breakpoints. All click actions should also equate to tap-a-able actions. With that being said, the hover state of the main menu can not be used though by those devices. Users will either use touch and be directed to the resulting landing page or they will use hover based actions for the full use of the menu.
+Small and medium screen devices are using the header & menu system described on the specifications for the small screen --> [mobile version]({{ site.url }}/header-sm). However, there are still touch screen devices that exist on the large and extra-large breakpoints. All click actions should also equate to tap-a-able actions. With that being said, the hover state of the main menu can not be used though by those devices. Users will either use touch and be directed to the resulting landing page or they will use hover based actions for the full use of the menu.
 
 {% include patterns/header/menu-links-table.html %}

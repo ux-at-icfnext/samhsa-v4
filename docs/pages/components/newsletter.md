@@ -13,7 +13,7 @@ The new SAMHSA newsletter module is meant to be a fast, 2-step signup process fo
 ### Functionality
 **Input Box**
 User is able to enter their email address in the input box.
-[Read more about form specification]({{ site.url }}forms)
+[Read more about form specification]({{ site.url }}/forms)
 
 **Submit Button**
 OnClick / On Tap button system displays the [mailchip signup](https://samhsa.us4.list-manage.com/subscribe?u=d0780dc94825e65acd61c17dc&id=ee1c4b138c) form with the email address prefilled with the address the user entered.

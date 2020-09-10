@@ -41,7 +41,7 @@ When the page is first loaded, content load in an unflitered state.
 <a href="breadcrumb"></a>
 ## Breadcrumb
 
-Resource pages use the standard breadcrumbs. Find out more [about breadcrumbs]({{ site.url }}breadcrumb).
+Resource pages use the standard breadcrumbs. Find out more [about breadcrumbs]({{ site.url }}/breadcrumb).
 
 <a href="header"></a>
 ##  Page Header
@@ -64,7 +64,7 @@ The search bar is centered at 70% width of the content area.
 ### Functionality:
 - OnClick / OnTap of button, system uses the content of the input to search the collection. The resource list is updated to show matching results
 **_@Leake -- What are we searching against?_**
-_(see more about [form field specifications]({{ site.url }}forms))_
+_(see more about [form field specifications]({{ site.url }}/forms))_
 
 
 <a href="filters"></a>
@@ -93,7 +93,7 @@ Search header contains:
 ## Mobile Search and Filter Accordion
 On Small screens, search, filters, sort and view are all hidden behind an accordion.
 - OnClick or OnTap accordion slides to open or closed state and icon displays new state
-_see [accordions]({{ site.url }}accordion) for more information_
+_see [accordions]({{ site.url }}/accordion) for more information_
 
 
 *filter in closed state*
@@ -147,7 +147,7 @@ Each return item contains:
 <a href="pagination"></a>
 ## Pagination
 
-Resource pages use the standard pagination. Find out more [about pagination]({{ site.url }}pagination).
+Resource pages use the standard pagination. Find out more [about pagination]({{ site.url }}/pagination).
 
 <a href="example"></a>
 ## Full Page Example

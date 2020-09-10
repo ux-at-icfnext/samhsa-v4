@@ -30,7 +30,7 @@ Buttons generally perform the same way on mobile devices as on desktops, though 
 - onClick/OnTap of button activates desired functionality. Functionality in determined by the context of the button (for example in a search experience or as a link item).
 - **Disabled Button** - the disabled button is used to indicate that there is actions on the page that need to happen before the button can be used. The user cannot interact with button. Once the required functionailty has happened on the page, the disabled state should be swtiched with an actionalble button.
 - **Buttons for Submitting Forms**
-  - onSubmit of button, for validation should occur on all required fields. Please see the [forms specification]({{ site.url }}forms) for how to deal with displaying errors and error messaging.
+  - onSubmit of button, for validation should occur on all required fields. Please see the [forms specification]({{ site.url }}/forms) for how to deal with displaying errors and error messaging.
 
 <a name="language"></a>
 ### Language
@@ -48,8 +48,8 @@ In general, all buttons should have tracking. This allows analytics for user act
 ### Buttons with input boxes
 **Input box with single button**
 The button is attached to the end of the input box in large spaces -- or stacked on smaller spaces. Examples of this:
-- [Search Widget]({{ site.url }}search-widget)
-- [Newsletter Subscribe]({{ site.url }}samhsa-newsletter)
+- [Search Widget]({{ site.url }}/search-widget)
+- [Newsletter Subscribe]({{ site.url }}/samhsa-newsletter)
 
 *example newsletter widget*
 

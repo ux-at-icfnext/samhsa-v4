@@ -108,19 +108,19 @@ Use of cards as navigation is common across the site. A few rules should be foll
 - Titles or buttons should be used to describe the destination
 - The title and or button should follow regular link rules listed above for visual display.
 - The full card is clickable/tapable
-_for more information about [cards]({{ site.url }}cards), please see the cards specifications._
+_for more information about [cards]({{ site.url }}/cards), please see the cards specifications._
 
 <a href="buttons"></a>
-### Buttons
-Please, see the [buttons]({{ site.url }}buttons) specifications.
+## Buttons
+Please, see the [buttons]({{ site.url }}/buttons) specifications.
 
 <a href="menu"></a>
 ## Menu Links
 Please see more about the visual aspects of links for each menu
-- [Desktop Header]({{ site.url }}header-lg) (Primary & secondary nav)
-- [Mobile Header]({{ site.url }}header-sm) (Mobile menu)
-- [Tertiary Nav]({{ site.url }}tertiary-nav)
+- [Desktop Header]({{ site.url }}/header-lg) (Primary & secondary nav)
+- [Mobile Header]({{ site.url }}/header-sm) (Mobile menu)
+- [Tertiary Nav]({{ site.url }}/tertiary-nav)
 
 <a href="footer"></a>
 ## Footer Links
-See [footer spec]({{ site.url }}footer) for visual treatments of links in the footer.
+See [footer spec]({{ site.url }}/footer) for visual treatments of links in the footer.
