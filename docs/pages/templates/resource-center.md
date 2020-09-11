@@ -80,7 +80,7 @@ Search header contains:
 1. Section Title - H3
 2. Sort - OnSelect, system displays the result set in the order that matches the users choice
   - Featured
-  - Most Relevent
+  - Most Relevant 
   - Most Recent
   - Oldest
 3. View - OnSelect, system displays the number of items in the result set that matches the users choice
