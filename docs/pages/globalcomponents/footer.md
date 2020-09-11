@@ -46,7 +46,7 @@ This links are represented as actionalble icons. The icons are from the FontAwes
 
 <a name="newsletter"></a>
 ## Newsletter Sign up
-This module allows users to subscribe to the SAMHSA newsletter. The module is located on the footer, but may be used in other areas of the site. Please refer to the documentatation on the [Newsletter Module]({{ site.url }}samhsa-newsletter) page.
+This module allows users to subscribe to the SAMHSA newsletter. The module is located on the footer, but may be used in other areas of the site. Please refer to the documentatation on the [Newsletter Module]({{ site.url }}/samhsa-newsletter) page.
 
 
 <a name="language"></a>
@@ -89,5 +89,5 @@ Content:
 
 <a name="icons"></a>
 ## Footer Icons
-- [SAMHSA Logo]({{ site.url }}logos) - OnClick/OnTap of link system displays [https://www.samhsa.gov/](https://www.samhsa.gov/) in parent window.
+- [SAMHSA Logo]({{ site.url }}/logos) - OnClick/OnTap of link system displays [https://www.samhsa.gov/](https://www.samhsa.gov/) in parent window.
 - [HHS Logo](https://www.hhs.gov/web/policies-and-standards/web-policies/logo-seal-and-symbol-policies/index.html) - OnClick/OnTap of link system displays [https://www.hhs.gov/](https://www.hhs.gov/) in new window.

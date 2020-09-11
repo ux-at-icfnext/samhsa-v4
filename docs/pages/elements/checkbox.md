@@ -33,7 +33,7 @@ List should always be displayed vertically.
 Try to keep this list on short (not more than a can be seen on a mobile screen). If there are a lot of options try grouping types of items together to create shorter list.
 
 **When to choose something else**
-- If there can only be one selection use a [radio buttons]({{ site.url }}radio-buttons) or [dropdown]({{ site.url }}dropdown)
+- If there can only be one selection use a [radio buttons]({{ site.url }}/radio-buttons) or [dropdown]({{ site.url }}/dropdown)
 - If there is only a binary option, like yes & no, consider using a [toggle]
 
 <a name="accessibility"></a>

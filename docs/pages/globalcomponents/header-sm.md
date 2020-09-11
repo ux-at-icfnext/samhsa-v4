@@ -6,7 +6,7 @@ permalink: "/header-sm/"
 ---
 
 ## Overview
-This global component applies to mobile (small & medium screens) versions of the SAMHSA website. (View the [desktop version]({{ site.url }}header-lg).) The small mobile has a standardized header, search, and menu.
+This global component applies to mobile (small & medium screens) versions of the SAMHSA website. (View the [desktop version]({{ site.url }}/header-lg).) The small mobile has a standardized header, search, and menu.
 
 **Contents:**
 - [Header Design](#head)
@@ -35,7 +35,7 @@ The small header fills the full width of the brower window.
 - OnTap of search icon and title, the search slides open beneath the header.
 **Open State**
 Global Search / Local Search
-   On the SAMHSA main site, this search box is used to search the global main site. However, for some sites the search uses a local search, for instance on the Data Page and the SAMHSA store. This difference is decided on a case by case bases. (see the [search widget pattern]({{ site.url }}search)) for more information).
+   On the SAMHSA main site, this search box is used to search the global main site. However, for some sites the search uses a local search, for instance on the Data Page and the SAMHSA store. This difference is decided on a case by case bases. (see the [search widget pattern]({{ site.url }}/search)) for more information).
 - OnTap of the icon and title or of the page below the search -- the search slides closed.
 
 ![search open](../assets/img/header/sm/search-open.png)
@@ -156,7 +156,7 @@ In addition to the submenu links…
 ?? What is our Accessibility on this menu ??
 
 ### Multidevice
-This pattern has been specified for small and medium screen sizes. However, full support should be given across breakpoints for both click and keyboard interactions. Users using larger screen devices but with smaller browser windows will experience this pattern. If these users expand their browser to large or extra large breakpoints their expereince show switch to the [large screen]({{ site.url }}header-lg) pattern.
+This pattern has been specified for small and medium screen sizes. However, full support should be given across breakpoints for both click and keyboard interactions. Users using larger screen devices but with smaller browser windows will experience this pattern. If these users expand their browser to large or extra large breakpoints their expereince show switch to the [large screen]({{ site.url }}/header-lg) pattern.
 
 <a name="table"></a>
 

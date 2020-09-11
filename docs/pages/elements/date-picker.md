@@ -39,7 +39,7 @@ OnTap of calendar icon (mobile devices) make use of the native scroll wheel to a
 
 <a name="accessibility"></a>
 ## Accessibility
-Be sure to follow the [guidelines]({{ site.url }}forms) for all text inputs.
+Be sure to follow the [guidelines]({{ site.url }}/forms) for all text inputs.
 
 1. Don’t force people to use the date picker. Make it possible to write directly in the input field as well. And make sure the required format is specified in the label.
 2. Make it possible to navigate with a keyboard (here is where most fail). For example by tabbing to the calendar and using arrow keys to pick the right date.

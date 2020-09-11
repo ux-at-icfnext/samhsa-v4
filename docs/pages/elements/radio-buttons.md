@@ -36,9 +36,9 @@ List should always be displayed vertically.
 Try to keep this list on short (not more than a can be seen on a mobile screen). If there are a lot of options try grouping types of items together to create shorter list.
 
 **When to choose something else**
-- If the selection list is more than 7 options  [dropdown]({{ site.url }}dropdown)
-- If the user can select multiple options use [checkboxes]({{ site.url }}checkbox)
-- If there is only a binary option, like yes & no, consider using a [toggle button]({{ site.url }}toggle-button)
+- If the selection list is more than 7 options  [dropdown]({{ site.url }}/dropdown)
+- If the user can select multiple options use [checkboxes]({{ site.url }}/checkbox)
+- If there is only a binary option, like yes & no, consider using a [toggle button]({{ site.url }}/toggle-button)
 
 <a name="accessibility"></a>
 ## Accessibility

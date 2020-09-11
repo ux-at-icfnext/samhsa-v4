@@ -67,17 +67,17 @@ More reading on Responsive Typography:
 
 ### Links
 **All Screens** Family: Tahoma 400 - Size: 15px - Line Height: 20px
-_read more about [link rules and variations]({{ site.url }}links)_
+_read more about [link rules and variations]({{ site.url }}/links)_
 
 
 ## Form Type styles
 ### Input
 **All Screens** Family: Tahoma 400 - Size: 16px - Line Height: 0px
-_read more about [form rules and variations]({{ site.url }}forms)_
+_read more about [form rules and variations]({{ site.url }}/forms)_
 
 ### Buttons
 **All Screens** Family: Tahoma 700 - Size: 16px - Line Height: 18px
-_read more about [button rules and variations]({{ site.url }}buttons)_
+_read more about [button rules and variations]({{ site.url }}/buttons)_
 
 ## Prose example
 
