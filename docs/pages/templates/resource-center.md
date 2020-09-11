@@ -41,7 +41,7 @@ When the page is first loaded, content load in an unflitered state.
 <a href="breadcrumb"></a>
 ## Breadcrumb
 
-Resource pages use the standard breadcrumbs. Find out more [about breadcrumbs]({{ site.url }}/breadcrumb).
+Resource pages use the standard breadcrumbs. Find out more [about breadcrumbs]({{ site.url }}/breadcrumbs).
 
 <a href="header"></a>
 ##  Page Header
