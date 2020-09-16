@@ -19,6 +19,7 @@ Tooltips are used to give users extra information to users to explain usage of a
 ## Design
 **Closed state**
 
+<div class="modal-content">
 <h1>Pure CSS modal box</h1>
 <div>
   <p>You can place trigger button wherever you want.</p>
@@ -56,7 +57,7 @@ Tooltips are used to give users extra information to users to explain usage of a
 </div>
 </div><!--End wrapper-->
 
-
+</div><!--End Modal Content -->
 
 <a name="functionality"></a>
 ## Functionality
