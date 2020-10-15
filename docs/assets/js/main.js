@@ -15,4 +15,20 @@ jQuery(document).ready(function($) {
         }
     });
 
+    //Side Tertiary Nav Active Support
+    var sideNav = $("div.nav.side-menu ul.menu li.level-1");
+    //$(sideNav).children("ul").css("display", "none");
+    $(document).ready(function() { 
+        var path = window.location.href; // because the 'href' property of the DOM element is the absolute path
+        $(this).each(function() {
+            if (this.href === path) {
+                $(this).addClass('active');
+            }
+        });
+
+        $(sideNav).click(function() {   
+        }); 
+    });
+
+
 });// End document load function
