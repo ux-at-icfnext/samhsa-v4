@@ -105,12 +105,12 @@ What Prints:
   </div> <!--End wrapper-->
 
   <div class="modal-elements-wrapper">
-  <input class="modal-state" id="modal-1" type="checkbox" />
+  <input class="modal-state" id="modal-2" type="checkbox" />
 
   <div class="modal">
-    <label class="modal__bg" for="modal-1"></label>
+    <label class="modal__bg" for="modal-2"></label>
     <div class="modal__inner">
-      <label class="modal__close" for="modal-1"></label>
+      <label class="modal__close" for="modal-2"></label>
       <h2>Large Screen Search Results</h2>
       <p><img src="../assets/img/search/sm-search.png" alt="" /></p>
     </div>
