@@ -11,20 +11,11 @@ Accordions are a list of elements that allow for hiding and showing content when
 See more guidance from the [USWDS](https://designsystem.digital.gov/components/accordion/).
 
 **Contents**
-- [Visual Design](#visualdesign)
 - [Design](#design)
+- [Visual Design](#visualdesign)
 - [Functionality](#functionality)
 - [Accessibility](#accessibility)
 - [Code](#code)
-
-<a name="visualdesign"></a>
-## Visual design
-![accordion closed](../assets/img/accordion/accordion-closed.png)
-![accordion open](../assets/img/accordion/accordion-open.png)
-
-**Visual Specs**
-Closed: #1A6986 — Line weight 1px
-Open #1A6986 - Opacity 15% - Line weight 1px
 
 <a name="design"></a>
 ## Design
@@ -32,9 +23,20 @@ Open #1A6986 - Opacity 15% - Line weight 1px
 {% include patterns/accordion/accordion.md %}
 
 
+<a name="visualdesign"></a>
+### Visual design
+![accordion closed](../assets/img/accordion/accordion-closed.png)
+![accordion open](../assets/img/accordion/accordion-open.png)
+
+**Visual Specs**
+- Closed: #1A6986 — Line weight 1px
+- Open #1A6986 - Opacity 15% - Line weight 1px
+
 
 <a name="functionality"></a>
 ### Functionality
+On each OnClick/OnTap of an accordion, it will open and close. Entire accordion should be interactive.
+
 
 <a name="accessibility"></a>
 ### Accessibility
