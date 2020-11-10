@@ -35,7 +35,7 @@ See more guidance from the [USWDS](https://designsystem.digital.gov/components/a
 
 <a name="functionality"></a>
 ### Functionality
-On each OnClick/OnTap of an accordion, it will open and close. Entire accordion should be interactive.
+On each OnClick/OnTap of an accordion, it will open and close. Entire accordion should be interactive. Only one accordion will be open at a time, when another accordion is selected to open, the previous selection will close.
 
 
 <a name="accessibility"></a>
