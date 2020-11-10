@@ -12,18 +12,35 @@ See more guidance from the [USWDS](https://designsystem.digital.gov/components/a
 
 **Contents**
 - [Design](#design)
+- [Visual Design](#visualdesign)
 - [Functionality](#functionality)
 - [Accessibility](#accessibility)
 - [Code](#code)
 
 <a name="design"></a>
 ## Design
+
 {% include patterns/accordion/accordion.md %}
 
+
+<a name="visualdesign"></a>
+### Visual design
+![accordion closed](../assets/img/accordion/accordion-closed.png)
+![accordion open](../assets/img/accordion/accordion-open.png)
+
+**Visual Specs**
+- Closed: #1A6986 — Line weight 1px
+- Open #1A6986 - Opacity 15% - Line weight 1px
 
 
 <a name="functionality"></a>
 ### Functionality
+<<<<<<< HEAD
+On each OnClick/OnTap of an accordion, it will open and close. Entire accordion should be interactive. Only one accordion will be open at a time, when another accordion is selected to open, the previous selection will close.
+=======
+On each OnClick/OnTap of an accordion, it will open and close. Entire accordion should be interactive.
+>>>>>>> 58d8be700f424ba6d591365d6a8bcaa85cb40a27
+
 
 <a name="accessibility"></a>
 ### Accessibility
