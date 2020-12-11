@@ -97,15 +97,15 @@ _see [accordions]({{ site.url }}/accordion) for more information_
 
 
 <a href="item"></a>
+
 ## List Item
 Each return item contains:
 1. Resource Title - H3 - links to source
-2. Sub-title - H6 (optional)
-3. Publication Date - body text
-4. Resource Description - body text
-5. CTA - url link to source - content =  "Get this Resource"
+2. Publication Date - body text
+3. Resource Description - body text
+4. CTA - url link to source - content =  "Get this Resource"
 - for 508 accessbility - add aria-label to "Get this {title}"
-6. Featured Thumbnail -
+5. Featured Thumbnail -
   - image should be authored at 750 pixels then resized for use.
     - 25% of container on large screen
     - 100% of width of container on small screens
