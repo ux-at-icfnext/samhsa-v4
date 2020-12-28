@@ -1,0 +1,20 @@
+// Card Classes -->
+// this class helps to constrain the card using a container -- it is an example only
+.card-container {
+    display: block;
+    max-width: 320px;
+    border: 1px solid #C0BFBF;
+    background-color: #FFFFFF;
+    padding: 2px;
+    margin: 15px;
+  }
+  
+  .card-title {
+      font-size: 18px;
+      color: #1A6986;
+      padding: 0;
+    }
+  .card-body {
+    padding: 0;
+    color: #4A4A4A
+  }
