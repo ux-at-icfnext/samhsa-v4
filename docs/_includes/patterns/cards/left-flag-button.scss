@@ -1,0 +1,33 @@
+// Card Classes -->
+.card-container {
+    display: block;
+    position: relative;
+    max-width: 320px;
+    border: 1px solid #C0BFBF;
+    background-color: #FFFFFF;
+    padding: 2px;
+    margin: 15px;
+  }
+
+  .card-image {
+    height: auto !important;
+    float: left;
+  }
+  
+  .card-title {
+      font-size: 18px;
+      color: #1A6986;
+      padding: 0;
+    }
+  .card-body {
+    padding: 0;
+    color: #4A4A4A;
+  }
+/* Button used for card component */
+  
+  .primary-button-1 {
+    background-color: #1A6986;
+    color: $white;
+    border: none;
+  }
+  
