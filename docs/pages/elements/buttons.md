@@ -4,17 +4,15 @@ title: Buttons
 category: elements
 permalink: "/buttons/"
 ---
-
-
-{% include patterns/buttons/buttons.md %}
+![button visual design](../assets/img/buttons/button-visual-design.png)
 
 
 ## Overview
-Buttons should be used for important actions on your site and for submitting forms. There should be realitively few buttons on a page... please consider when a link is more appropriate.
+Buttons should be used for important actions on your site and for submitting forms. There should be relatively few buttons on a page. Please consider when a link is more appropriate.
 
 Buttons generally perform the same way on mobile devices as on desktops, though their size may be increased to ~95% width in the mobile view. Pay especial attention to padding, since buttons should not extend to the edges of the user's mobile device.
 
-(Please see the [USWDS](https://designsystem.digital.gov/components/button/) for more on their guidelines, however, following this guide should keep you in compliancy)
+(Please see the [USWDS](https://designsystem.digital.gov/components/button/) for more on their guidelines, however, following this guide should keep you in compliance)
 
 **Contents**
 - [Functionality](#functionality)
@@ -26,11 +24,18 @@ Buttons generally perform the same way on mobile devices as on desktops, though 
 
 <a name="functionality"></a>
 ### Functionality
-- OnHover buttons displays on:hover state.
+
+**Hover and Active States**
+- OnHover buttons display :hover state. This includes the color change and underline effect.
+- :active state will activate when user clicks or taps a button, it displays briefly. See the [USWDS button page](https://designsystem.digital.gov/components/button/) for a good example
+- On touch screens (mobile), buttons will just use the :active state instead of the :hover state (since there is no hover function). This includes a color change and an underline effect.
 - onClick/OnTap of button activates desired functionality. Functionality in determined by the context of the button (for example in a search experience or as a link item).
-- **Disabled Button** - the disabled button is used to indicate that there is actions on the page that need to happen before the button can be used. The user cannot interact with button. Once the required functionailty has happened on the page, the disabled state should be swtiched with an actionalble button.
-- **Buttons for Submitting Forms**
-  - onSubmit of button, for validation should occur on all required fields. Please see the [forms specification]({{ site.url }}forms) for how to deal with displaying errors and error messaging.
+
+**Disabled Button**
+The disabled button is used to indicate that there is actions on the page that need to happen before the button can be used. The user cannot interact with button. Once the required functionality has happened on the page, the disabled state should be switched with an actionable button.
+
+**Buttons for Submitting Forms**
+  - onSubmit of button, form validation should occur on all required fields. Please see the [forms specification]({{ site.url }}forms) for how to deal with displaying errors and error messaging.
 
 <a name="language"></a>
 ### Language
@@ -38,7 +43,7 @@ Button text should be as short as possible and lead with action words that clear
 
 <a name="access"></a>
 ### Accessibility
-It is critical that buttons conform to Section 508 best practices so that they can be used successfully by everyone. So, contrast of the button and text colors should meet [W3C](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) guidelines and alt text is required for all button text. Note that these buttons, if used as designed, are 508 compliant.
+It is critical that buttons conform to Section 508 best practices so that they can be used successfully by everyone. So, contrast of the button and text colors should meet [W3C](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) guidelines and alt text is required for all button text. Note that these buttons, if used as designed, are 508 and USWDS compliant.
 
 <a name="analytics"></a>
 ### Analytics Tracking
@@ -55,13 +60,13 @@ The button is attached to the end of the input box in large spaces -- or stacked
 
 Large Screen
 
-![newsletter widget large spaces](../assets/img/buttons/lg-input-button.png)
+![newsletter widget large spaces](../assets/img/buttons/lg-input-button-uswds.png)
 
 Small Screen
 
-![newsletter widget small spaces](../assets/img/buttons/sm-input-button.png)
+![newsletter widget small spaces](../assets/img/buttons/sm-input-button-uswds.png)
 
-**Input box with multipe buttons**
+**Input box with multiple buttons**
 The input box stands separately while the buttons are grouped together. This is often seen when there are buttons for both submit and cancel.
 
 <a name="code"></a>

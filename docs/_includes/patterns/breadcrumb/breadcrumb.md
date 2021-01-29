@@ -1,8 +1,23 @@
-<nav class="breadcrumb" aria-label="breadcrumb">
-  <ol>
-    <li><a href="/">Home</a></li>
-    <li><a href="/grandparent">Grandparent</a></li>
-    <li><a href="/parent">Parent</a></li>
-    <li aria-current>Current Location</li>
+<h6>Wrapping breadcrumb</h6>
+<nav class="usa-breadcrumb usa-breadcrumb--wrap" aria-label="Breadcrumbs">
+  <ol class="usa-breadcrumb__list">
+    <li class="usa-breadcrumb__list-item">
+      <a href="#" class="usa-breadcrumb__link">
+        <span>Home</span>
+      </a>
+    </li>
+    <li class="usa-breadcrumb__list-item">
+      <a href="#" class="usa-breadcrumb__link">
+        <span>Federal Contracting</span>
+      </a>
+    </li>
+    <li class="usa-breadcrumb__list-item">
+      <a href="#" class="usa-breadcrumb__link">
+        <span>Contracting assistance programs</span>
+      </a>
+    </li>
+    <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+      <span>Women-owned small business federal contracting program</span>
+    </li>
   </ol>
 </nav>

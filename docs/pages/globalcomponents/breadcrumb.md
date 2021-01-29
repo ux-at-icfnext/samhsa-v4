@@ -7,10 +7,20 @@ permalink: "/breadcrumb"
 {% include patterns/breadcrumb/breadcrumb.md %}
 
 ## Overview
-Breadcrumbs are used to help users navigate the SAMHSA website.
+Breadcrumbs are used to help users navigate the SAMHSA website. We will follow the [USWDS example](https://designsystem.digital.gov/components/button/).
 
 ## Usage
-Breadcrumbs are used on breakpoints large and greater. The are displayed on all pages with the exception of Home and Search.
+Breadcrumbs are available on all breakpoints, but they function differently.
+
+- Small screen 0-479: Show responsive version
+![sm breadcrumb](../assets/img/breadcrumb/sm-breadcrumb.png)
+
+- Small to large screen ≥ 480: Show full breadcrumb with wrapping
+![lg breadcrumb](../assets/img/breadcrumb/lg-breadcrumb.png)
+
+
+**Location**
+Breadcrumbs are displayed on all pages with the exception of Home and Search.
 
 ## Functionality
 * All pages in the breadcrumb are links accept the current page.
@@ -18,7 +28,7 @@ Breadcrumbs are used on breakpoints large and greater. The are displayed on all 
 * There is no need to assign special keyboard functions using this code.
 
 ## Accessibility
-There is not HTML property for breadcrumbs. So to help make them usuable for screen readers, it is recommended that these guidelines are followed.
+There is not HTML property for breadcrumbs. So to help make them useable for screen readers, it is recommended that these guidelines are followed.
 * Use the ```<nav>``` property to call out the navigational element.
 * Use area labels to name both the element as a whole ```<nav aria-label="breadcrumbs">``` and to show the current page ```<li aria-current="location">```
 * Make the divider a decorative element by putting it inside the CSS.
